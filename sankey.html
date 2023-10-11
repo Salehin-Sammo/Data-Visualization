@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Data Visualisation Exercise " />
+    <meta name="keywords" content="HTML, CSS, D3" />
+    <meta name="author" content="Azmain Ishrak Haroon" />
+
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://unpkg.com/d3-sankey"></script>
+
+    <script src="sankey.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.js"></script>
+    <link rel="stylesheet" href="sankey.css" type="text/css">
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="sankey.html">Sankey and Donut.</a></li>
+            <li><a href="index.html">Chlorpleth and Barchart.</a></li>
+            <li><a href="try.html">Radial chart.</a></li>
+        </ul>
+    </nav>
+    <div class="wrapper">
+        <div id="innerwrapper">
+            <div class="Info">
+                <h1>Regional Migration.</h1>
+                <div class="NSW">
+                    <p>
+                        "Population change at the regional level has three main
+                        components: NATURAL INCREASE, INTERNAL
+                        MIGRATION and OVERSEAS MIGRATION."
+                    </p>
+                    <cite>
+                        Source: <a
+                            href="https://www.abs.gov.au/statistics/people/population/regional-population/latest-release#victoria"></a>
+                        (Australian Bureau of statistics)
+                    </cite>
+                    <p>This combined Visualisation portrays all these aspects of
+                        Regional Migration Data.</p>
+
+
+                </div>
+            </div>
+
+        </div>
+        <div id="colorchange">
+            <button>CLICK for colour blind feature</button>
+        </div>
+    </div>
+    <footer id="foot">
+        COS30045-Data Visualisation
+    </footer>
+</body>
+
+</html>

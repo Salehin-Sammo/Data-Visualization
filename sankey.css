@@ -1,0 +1,90 @@
+.NSW{
+  font-size: larger;
+}
+.link {
+    fill: none;
+    stroke-opacity: .5;
+}
+
+.link:hover {
+    stroke-opacity: 1;
+}
+
+body {
+    background-color: bisque;
+}
+#innerwrapper  {
+    margin-top: 50px;
+    float:inline-start;
+    background-color: beige;
+}
+.Info h1 {
+   text-align: center;
+   margin-top: 10px;
+}
+.NSW {
+    float: right;
+}
+
+.title {
+    position: absolute;
+    z-index: 10;
+    background-color: rgb(210, 27, 27);
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 12px;
+    pointer-events: none;
+  }
+
+  #barstack {
+    margin-left: 100px;
+    margin-bottom: 100px;
+  }
+
+  #overseas {
+    margin-right: 12px;
+    float: right;
+  }
+
+  .title {
+    background-color: aqua;
+    color: red;
+  }
+
+  .cooltip {
+    fill: coral;
+    fill-opacity: 0.9;
+  }
+
+  nav {
+    background-color: beige;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ddd;
+  }
+  #foot{
+    float: right;
+  }
+  #colorchange {
+    float: left;
+    font-size: larger;
+  }
